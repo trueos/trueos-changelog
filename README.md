@@ -1,2 +1,4 @@
 # trueos-changelog
-Location of automatically created Changelog file
+
+This is an automatically managed directoy, keeping track of
+our TrueOS changelog. Please do not commit here.
