@@ -1,6 +1,14 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Thu Aug  4 15:32:12 PDT 2016
+-----------------------------
+Make the default xorg option on install media use X's built-in
+auto-detection. Add a new "failsafe" menu option to fall back to
+the old TrueOS configuration routines.
+
+https://github.com/trueos/trueos-core/commit/fe646bfe999ffc068e6b04c22d2c88e0e007a8fb
+
 Wed Aug  3 13:29:09 PDT 2016
 -----------------------------
 Add details to changelog
