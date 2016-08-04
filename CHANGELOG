@@ -1,5 +1,11 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Wed Aug  3 13:29:09 PDT 2016
+-----------------------------
+Add details to changelog
+
+https://github.com/trueos/trueos-changelog/commit/7d60c9932975792faacc00fbc3fbd778da1bc34f
+
 --- 20160803035601 ---
 Initial Commit of ChangeLog file
