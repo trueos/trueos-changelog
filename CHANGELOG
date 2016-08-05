@@ -1,6 +1,12 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Fri Aug  5 04:57:29 PDT 2016
+-----------------------------
+Disable the initial xorg manual detection routine on the install media and use the official auto-detection chain instead. Also remove the "failsafe" mode since there are already menu options for vesa and scfb to be used directly.
+
+https://github.com/trueos/trueos-core/commit/87f607b12abc394d06f8d42f9dacf6401d9a3adf
+
 Thu Aug  4 17:57:12 PDT 2016
 -----------------------------
 Add sysadm to TrueOS Server Changelog: yes
