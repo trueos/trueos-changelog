@@ -9,19 +9,14 @@ https://github.com/trueos/trueos-core/commit/87f607b12abc394d06f8d42f9dacf6401d9
 
 Thu Aug  4 17:57:12 PDT 2016
 -----------------------------
-Add sysadm to TrueOS Server Changelog: yes
+Add sysadm to TrueOS Server
+
 https://github.com/trueos/trueos-server/commit/e877b8341c0ccfaa9b0e7c0ff1baac54caf898d9
-
-Thu Aug  4 18:00:10 PDT 2016
------------------------------
-Revert "Add sysadm to TrueOS Server Changelog: yes"
-
-This reverts commit e877b8341c0ccfaa9b0e7c0ff1baac54caf898d9.
-https://github.com/trueos/trueos-server/commit/6dda6ddad38f8443d4d0d1c387b922272b5788f5
 
 Thu Aug  4 18:02:56 PDT 2016
 -----------------------------
 Add sysadm to TrueOS Server install.
+
 https://github.com/trueos/trueos-server/commit/6daf39f87841d1b3a46f88016b6d99cdf3451835
 
 Thu Aug  4 15:32:12 PDT 2016
