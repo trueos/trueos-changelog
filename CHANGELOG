@@ -1,6 +1,12 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Fri Aug  5 07:45:55 PDT 2016
+-----------------------------
+Fixed time synchronization with OpenNTPD.
+
+https://github.com/trueos/trueos-core/commit/45b89242a2b16aaf36adf69e35f3967d418f477d
+
 Fri Aug  5 04:57:29 PDT 2016
 -----------------------------
 Disable the initial xorg manual detection routine on the install media
