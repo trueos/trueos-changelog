@@ -1,6 +1,16 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Sun Aug 28 09:28:34 PDT 2016
+-----------------------------
+Improve the wording around asking if the user wants to install into
+an existing ZFS pool
+
+Fixes #7
+
+
+https://github.com/trueos/trueos-utils/commit/qt5
+
 Fri Aug  5 07:45:55 PDT 2016
 -----------------------------
 Fixed time synchronization with OpenNTPD.
