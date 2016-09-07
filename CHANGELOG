@@ -1,6 +1,13 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Wed Sep  7 08:36:11 PDT 2016
+-----------------------------
+Add in the beginning of a new CORE for connecting to a FreeNAS
+systems through the SysAdm client.
+
+https://github.com/trueos/freenas-qt/commit/ui
+
 Tue Sep  6 17:22:06 PDT 2016
 -----------------------------
 Add PEFS support to personacrypt. This means you can have an encrypted
