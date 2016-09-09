@@ -1,6 +1,12 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Fri Sep  9 08:38:38 PDT 2016
+-----------------------------
+Fix the icon used for the new service manager.
+
+https://github.com/trueos/sysadm-ui/commit/qt
+
 Wed Sep  7 08:36:11 PDT 2016
 -----------------------------
 Add in the beginning of a new CORE for connecting to a FreeNAS
