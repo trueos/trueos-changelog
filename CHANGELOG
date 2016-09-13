@@ -1,6 +1,12 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Tue Sep 13 06:18:31 PDT 2016
+-----------------------------
+Add amdgpu (radeon) support to installer for testing
+
+https://github.com/trueos/trueos-core/commit/c9f188e05ab3ef0204db7fae40279f97c6703b0b
+
 Fri Sep  9 08:38:38 PDT 2016
 -----------------------------
 Fix the icon used for the new service manager.
