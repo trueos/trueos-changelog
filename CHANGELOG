@@ -1,6 +1,20 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Tue Sep 20 12:42:12 PDT 2016
+-----------------------------
+Add prelim support to personacrypt for PEFS+SYNCTHING
+
+This will allow setting up a PEFS encrypted home-directory along
+with a SyncThing target of the encrypted contents. When exporting
+and importing the user setting, the SyncThing Client ID's and folder
+ID's will be preserved, alowing the linking of a users $HOME directory
+between more than one system.
+
+
+
+https://github.com/trueos/personacrypt-cbe6332b3cc944dd3a0708c5188dc48fabf23b33/commit/
+
 Tue Sep 20 11:52:28 PDT 2016
 -----------------------------
 Add support to PersonaCrypt to import/export PEFS type encrypted
