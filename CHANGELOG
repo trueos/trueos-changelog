@@ -1,6 +1,15 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Tue Sep 20 11:52:28 PDT 2016
+-----------------------------
+Add support to PersonaCrypt to import/export PEFS type encrypted
+home dirs.
+
+
+
+https://github.com/trueos/personacrypt-64bf45d703b9e0fb46973e7c930e67970aebe16d/commit/
+
 Tue Sep 13 06:34:09 PDT 2016
 -----------------------------
 Add polling option to fix sound for some HDA devices.
