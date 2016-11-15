@@ -1,6 +1,18 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Tue Nov 15 08:35:51 PST 2016
+-----------------------------
+Welcome OpenRC to the build! This replaces rc.d as our run-control
+and will allow using things like parallel startup, new service
+files, and much more.
+
+While here, fix installing rc.h and einfo.h twice via pkgs
+
+
+
+https://github.com/trueos/freebsd-2f20a4713143a161d2f07e084b120167e4eb10d8/commit/
+
 Tue Sep 20 12:42:12 PDT 2016
 -----------------------------
 Add prelim support to personacrypt for PEFS+SYNCTHING
