@@ -1,6 +1,17 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Tue Dec 13 09:59:07 PST 2016
+-----------------------------
+Add improved support for starting and stopping jails via OpenRC
+
+Now jails will spawn sub-services, so you can do
+
+And so forth
+
+
+https://github.com/trueos/freebsd-2c528237be5b5e8687746a4de6d633403adaab6c/commit/
+
 Tue Nov 15 08:35:51 PST 2016
 -----------------------------
 Welcome OpenRC to the build! This replaces rc.d as our run-control
