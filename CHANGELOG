@@ -1,6 +1,13 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Tue Dec 13 13:02:09 PST 2016
+-----------------------------
+Add post install option to always boot verbose by default.
+
+
+https://github.com/trueos/trueos-utils/commit/qt5
+
 Tue Dec 13 09:59:07 PST 2016
 -----------------------------
 Add improved support for starting and stopping jails via OpenRC
