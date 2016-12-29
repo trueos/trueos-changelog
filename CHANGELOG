@@ -1,6 +1,19 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Wed Dec 28 15:37:48 PST 2016
+-----------------------------
+Large update to network startup code. Import from FreeBSD's
+/etc/rc.d/netif only slightly updated for some OpenRC functionality.
+This should allow alias to work again, as well as fix a variety of
+regressions.
+
+Fixes: trueos/trueos-core#222
+
+
+
+https://github.com/trueos/freebsd-9fe883239dccc8fa658d8eaa20dfb81df06e3dde/commit/
+
 Tue Dec 13 13:02:09 PST 2016
 -----------------------------
 Add post install option to always boot verbose by default.
