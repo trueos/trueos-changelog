@@ -1,6 +1,15 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Mon Mar 27 06:47:22 PDT 2017
+-----------------------------
+Disable EARLY_AP_STARTUP for now, seeing various sytems that this
+causes bootup options on
+
+
+
+https://github.com/trueos/freebsd-831f60b429943d9517a6d66ff7109dc25b2b7c70/commit/
+
 Wed Dec 28 15:37:48 PST 2016
 -----------------------------
 Large update to network startup code. Import from FreeBSD's
