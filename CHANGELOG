@@ -1,6 +1,15 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Thu Mar 30 07:30:48 PDT 2017
+-----------------------------
+Don't try to load if_iwn at boot, it is built into GENERIC kernel
+now.
+
+
+
+https://github.com/trueos/freebsd-40d699a6f287296e3ab906dd37c9c27abccd71c6/commit/
+
 Mon Mar 27 06:47:22 PDT 2017
 -----------------------------
 Disable EARLY_AP_STARTUP for now, seeing various sytems that this
