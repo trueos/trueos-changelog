@@ -1,6 +1,19 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Fri Mar 31 14:17:32 PDT 2017
+-----------------------------
+Cleanup the old /etc/conf.d/modules we shipped with a while back,
+this allows /etc/defaults/rc.conf to properly specify the module
+list, and is upgraded automatically.
+
+Users should add to /etc/conf.d/modules using the "kld_list=" or
+"kldload_<name>=" syntax add custom modules
+
+
+
+https://github.com/trueos/trueos-desktop/commit/83878164165c466a49a5140783a9514258e6a0e3
+
 Thu Mar 30 07:30:48 PDT 2017
 -----------------------------
 Don't try to load if_iwn at boot, it is built into GENERIC kernel
