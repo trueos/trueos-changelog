@@ -1,6 +1,12 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Sun Apr  2 08:25:46 PDT 2017
+-----------------------------
+Replace system dbus with trueosinit for installer
+
+https://github.com/trueos/trueos-core/commit/2be06125722809c61d029b523222543f0b53d4d0
+
 
 -----------------------------
 
