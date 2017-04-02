@@ -1,6 +1,14 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Sun Apr  2 08:06:23 PDT 2017
+-----------------------------
+Allow trueosinit to create machine-id if dbus service is not present
+in runlevel.  This should help resolve gvfs crashes by allowing us
+to disable the system dbus service which triggers this.
+
+https://github.com/trueos/trueos-core/commit/025fa3aea9e3ddd527baab6fbd9595bfdd56901b
+
 Fri Mar 31 14:17:32 PDT 2017
 -----------------------------
 Cleanup the old /etc/conf.d/modules we shipped with a while back,
