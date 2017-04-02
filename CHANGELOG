@@ -1,6 +1,12 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Sun Apr  2 08:27:00 PDT 2017
+-----------------------------
+Remove duplicate services already started by network from installer.
+
+https://github.com/trueos/trueos-core/commit/d4e7bd41019916ee3e0cbddf8aa042b877a135be
+
 
 -----------------------------
 
