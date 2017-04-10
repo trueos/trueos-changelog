@@ -12,8 +12,6 @@ Changelog: yes
 This code includes your commit message in the **Changelog** file
 automatically.
 
-**Table of Contents**
-
 **General Table of Contents**
 
 - [General TrueOS Information](#generalinfo)
