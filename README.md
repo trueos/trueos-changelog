@@ -3,7 +3,7 @@
 This is an automatically managed directory which keeps track of
 our TrueOS Changelog. Please do not directly commit here.
 
-Instead, when adding a commit in **trueos/<projectname>**, use this:
+Instead, when adding a commit in **trueos/"projectname"**, use this:
 
 ```
 Changelog: yes
