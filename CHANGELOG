@@ -1,6 +1,13 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Fri Apr 28 10:17:13 PDT 2017
+-----------------------------
+Add cut/copy/rename functionality to the desktop icons in Lumina.
+
+
+https://github.com/trueos/lumina-1db60e7acd98d1c5ef6e7f2938ddc15e2982e53a/commit/
+
 Sun Apr  2 08:27:00 PDT 2017
 -----------------------------
 Remove duplicate services already started by network from installer.
