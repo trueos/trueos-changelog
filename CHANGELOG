@@ -1,6 +1,13 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Fri May  5 05:21:59 PDT 2017
+-----------------------------
+Load only the vesa driver for the installer image to ensure maximum
+compatibility.
+
+https://github.com/trueos/trueos-core/commit/516aed848cb33ee9a83511ce6cf58e70e990c075
+
 Fri Apr 28 10:17:13 PDT 2017
 -----------------------------
 Add cut/copy/rename functionality to the desktop icons in Lumina.
