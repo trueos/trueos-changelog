@@ -1,6 +1,12 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Fri May  5 12:20:47 PDT 2017
+-----------------------------
+Merge branch 'master' of github.com:trueos/trueos-utils-qt5
+
+https://github.com/trueos/trueos-utils/commit/qt5
+
 Fri May  5 05:21:59 PDT 2017
 -----------------------------
 Load only the vesa driver for the installer image to ensure maximum
