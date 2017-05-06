@@ -1,6 +1,12 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Sat May  6 07:10:24 PDT 2017
+-----------------------------
+Update qupzilla-qt5 port to v2.1
+
+https://github.com/trueos/freebsd-ports/commit/13d0f1f64c2c850a9b2c497e017ca436ce7c2cca
+
 Fri May  5 12:20:47 PDT 2017
 -----------------------------
 Merge branch 'master' of github.com:trueos/trueos-utils-qt5
