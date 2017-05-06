@@ -1,6 +1,12 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Sat May  6 14:24:16 PDT 2017
+-----------------------------
+Add openrc support for sndio
+
+https://github.com/trueos/freebsd-ports/commit/78a06f1b4218f38efe07a9ca9479f28905b0b336
+
 Sat May  6 07:10:24 PDT 2017
 -----------------------------
 Update qupzilla-qt5 port to v2.1
