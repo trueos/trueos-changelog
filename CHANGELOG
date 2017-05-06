@@ -1,6 +1,12 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Sat May  6 14:27:40 PDT 2017
+-----------------------------
+Start sndio by default on TrueOS
+
+https://github.com/trueos/trueos-desktop/commit/2e0fe8d1e6f53c2e4d519d3dcf6b10e1585efa36
+
 
 -----------------------------
 
