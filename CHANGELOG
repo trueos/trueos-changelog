@@ -1,6 +1,12 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Sun May  7 06:53:54 PDT 2017
+-----------------------------
+Import additional wayland ports from xserver-mesa-next branch
+
+https://github.com/trueos/freebsd-ports/commit/10eff9fb5ac894405f8948ef87c9c3e632d62210
+
 Sat May  6 14:27:40 PDT 2017
 -----------------------------
 Start sndio by default on TrueOS
