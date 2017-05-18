@@ -1,6 +1,12 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Thu May 18 08:10:59 PDT 2017
+-----------------------------
+Set proper screen resolution for all UEFI capable systems.
+
+https://github.com/trueos/trueos-core/commit/2c034289b01ead40c31b180b654d4d43b83926e9
+
 Sun May  7 06:53:54 PDT 2017
 -----------------------------
 Import additional wayland ports from xserver-mesa-next branch
