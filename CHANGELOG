@@ -1,6 +1,13 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Fri May 19 19:38:30 PDT 2017
+-----------------------------
+Merge branch 'trueos-master' of https://github.com/trueos/freebsd-ports
+into trueos-stable
+
+https://github.com/trueos/freebsd-ports/commit/0fbf01c125ccf41170683670aa98a55c3539d08b
+
 Thu May 18 08:10:59 PDT 2017
 -----------------------------
 Set proper screen resolution for all UEFI capable systems.
