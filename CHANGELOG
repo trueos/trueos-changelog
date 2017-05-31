@@ -1,6 +1,95 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Wed May 31 11:20:32 PDT 2017
+-----------------------------
+API CHANGE: sysadm/iocage - "action"="listplugins" Add this API
+call to list all the available plugins for iocage.
+
+REST Request (example): ------------------------------- PUT
+/sysadm/iocage {
+   "action" : "listplugins"
+}
+
+WebSocket Request: ------------------------------- {
+   "namespace" : "sysadm", "args" : {
+      "action" : "listplugins"
+   }, "name" : "iocage", "id" : "fooid"
+}
+
+Response: ------------------------------- {
+  "args": {
+    "listplugins": {
+      "remote": {
+	"btsync": {
+	  "description": "Resilient, fast and scalable file sync
+	  software for enterprises and individuals.", "id": "btsync",
+	  "name": "BitTorrent Sync"
+	}, "couchpotato": {
+	  "description": "CouchPotato is an automatic NZB and torrent
+	  downloader.", "id": "couchpotato", "name": "CouchPotato"
+	}, "crashplan": {
+	  "description": "Computer backup and data storage made
+	  simple.", "id": "crashplan", "name": "Crashplan"
+	}, "deluge": {
+	  "description": "Bittorrent client using Python, and
+	  libtorrent-rasterbar", "id": "deluge", "name": "Deluge"
+	}, "emby": {
+	  "description": "Home media server built using mono and
+	  other open source technologies", "id": "emby", "name":
+	  "Emby"
+	}, "gitlab": {
+	  "description": "Powerful features for modern software
+	  development", "id": "gitlab", "name": "GitLab"
+	}, "jenkins": {
+	  "description": "Jenkins CI", "id": "jenkins", "name":
+	  "Jenkins"
+	}, "jenkins-lts": {
+	  "description": "Jenkins CI (Long Term Support Version)",
+	  "id": "jenkins-lts", "name": "Jenkins (LTS)"
+	}, "madsonic": {
+	  "description": "Open-source web-based media streamer and
+	  jukebox.", "id": "madsonic", "name": "MadSonic"
+	}, "nextcloud": {
+	  "description": "Access, share and protect your files,
+	  calendars, contacts, communication & more at home and in
+	  your enterprise.", "id": "nextcloud", "name": "NextCloud"
+	}, "plexmediaserver": {
+	  "description": "The Plex media server system", "id":
+	  "plexmediaserver", "name": "Plex Media Server"
+	}, "plexmediaserver-plexpass": {
+	  "description": "The Plex media server system", "id":
+	  "plexmediaserver-plexpass", "name": "Plex Media Server
+	  (PlexPass)"
+	}, "quasselcore": {
+	  "description": "Quassel Core is a daemon/headless IRC
+	  client, part of Quassel, that supports 24/7 connectivity.
+	  Quassel Client can be attached to it to.", "id":
+	  "quasselcore", "name": "Quasselcore"
+	}, "sickrage": {
+	  "description": "Automatic Video Library Manager for TV
+	  Shows", "id": "sickrage", "name": "SickRage"
+	}, "sonarr": {
+	  "description": "PVR for Usenet and BitTorrent users",
+	  "id": "sonarr", "name": "Sonarr"
+	}, "subsonic": {
+	  "description": "Open-source web-based media streamer and
+	  jukebox.", "id": "subsonic", "name": "SubSonic"
+	}, "syncthing": {
+	  "description": "Personal cloud sync", "id": "syncthing",
+	  "name": "Syncthing"
+	}, "transmission": {
+	  "description": "Fast and lightweight daemon BitTorrent
+	  client", "id": "transmission", "name": "Transmission"
+	}
+      }
+    }
+  }, "id": "fooid", "name": "response", "namespace": "sysadm"
+}
+
+
+https://github.com/trueos/sysadm-f1c3651ba5116febc0df64a165f67619d75915cc/commit/
+
 
 -----------------------------
 
