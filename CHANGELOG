@@ -1,6 +1,11 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+
+-----------------------------
+
+https://github.com/trueos/sysadm-f1c3651ba5116febc0df64a165f67619d75915cc/commit/
+
 Wed May 31 11:25:22 PDT 2017
 -----------------------------
 API Change: sysadm/iocage - "action"="listreleases" Add an API call
