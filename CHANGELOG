@@ -1,6 +1,38 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Wed May 31 11:25:22 PDT 2017
+-----------------------------
+API Change: sysadm/iocage - "action"="listreleases" Add an API call
+for listing all the FreeBSD releases supported for iocage jails
+
+REST Request (example): ------------------------------- PUT
+/sysadm/iocage {
+   "action" : "listreleases"
+}
+
+WebSocket Request: ------------------------------- {
+   "args" : {
+      "action" : "listreleases"
+   }, "name" : "iocage", "id" : "fooid", "namespace" : "sysadm"
+}
+
+Response: ------------------------------- {
+  "args": {
+    "listreleases": {
+      "local": [
+	""
+      ], "remote": [
+	"9.3-RELEASE (EOL)", "10.1-RELEASE (EOL)", "10.2-RELEASE
+	(EOL)", "10.3-RELEASE", "11.0-RELEASE"
+      ]
+    }
+  }, "id": "fooid", "name": "response", "namespace": "sysadm"
+}
+
+
+https://github.com/trueos/sysadm-2bf23b8aaf41029eaa3307e3720685e9729f389e/commit/
+
 Fri May 19 19:38:30 PDT 2017
 -----------------------------
 Merge branch 'trueos-master' of https://github.com/trueos/freebsd-ports
