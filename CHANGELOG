@@ -1,6 +1,27 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Thu Jun  1 12:40:13 PDT 2017
+-----------------------------
+API Adjustment: sysadm/iocage "action"="listplugins" Adjust the
+output syntax to also include "local" plugins (those already
+installed). The "remote" plugin format is unchanged.
+
+Output Arguments example: {
+ "listplugins":{
+  "remote" : { [same as before] }, "local" : {
+    "pluginname_jid" : {
+      "jid" : "number", "uuid" : "uuid_string", "boot" : "on/off",
+      "state" : "activestate", "tag" : "pluginname", "type" :
+      "plugin", "release" : "freebsd_release", "ip4" : "ipv4_address",
+      "ip6" : "ipv6_address", "template" : "-"
+    }
+  }
+ }
+}
+
+https://github.com/trueos/sysadm-4333ac6fbae851ee835ba520f3d681588fe94b08/commit/
+
 Wed May 31 11:20:32 PDT 2017
 -----------------------------
 API CHANGE: sysadm/iocage - "action"="listplugins" Add this API
