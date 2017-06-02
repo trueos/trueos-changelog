@@ -1,6 +1,44 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Fri Jun  2 05:27:15 PDT 2017
+-----------------------------
+NEW API CALL: sysadm/iocage "action"="fetchreleases" This will fetch
+any remotely-available FreeBSD releases and update/cache them on
+the local system for use when spinning up jails.  REQUIRED ARGUMENTS:
+"action" = "fetchreleases" "releases": String *or* Array of strings
+containing the version/release to fetch.
+
+-----------------
+
+REST Request (example): ------------------------------- PUT
+/sysadm/iocage {
+   "action" : "fetchreleases", "releases" : [
+      "10.3-RELEASE", "10.2-RELEASE"
+   ]
+}
+
+WebSocket Request: ------------------------------- {
+   "args" : {
+      "releases" : [
+	 "10.3-RELEASE", "10.2-RELEASE"
+      ], "action" : "fetchreleases"
+   }, "name" : "iocage", "namespace" : "sysadm", "id" : "fooid"
+}
+
+Response: ------------------------------- {
+  "args": {
+    "fetchreleases": {
+      "started_dispatcher_id": [
+	"sysadm_iocage_fetch_release_10.3-RELEASE",
+	"sysadm_iocage_fetch_release_10.2-RELEASE"
+      ]
+    }
+  }, "id": "fooid", "name": "response", "namespace": "sysadm"
+}
+
+https://github.com/trueos/sysadm-737e90c42a0e8bab079a675bf8f37d80a98763d3/commit/
+
 Thu Jun  1 12:40:13 PDT 2017
 -----------------------------
 API Adjustment: sysadm/iocage "action"="listplugins" Adjust the
