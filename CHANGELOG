@@ -1,6 +1,39 @@
 TrueOS Automated ChangeLog
 ***************************************************
 
+Fri Jun  2 06:55:03 PDT 2017
+-----------------------------
+NEW API: sysadm/iocage "action"="createplugin" This will fetch/create
+a new plugin jail.  Required Arguements: "action"="createplugin"
+"plugin"="name_of_plugin" "net_device"="network_device_to_use" "ip4"
+*or* "ip6" with the address to assign to the new jail (IPv4 or IPv6
+address)
+
+------------
+
+REST Request (example): ------------------------------- PUT
+/sysadm/iocage {
+   "plugin" : "gitlab", "net_device" : "re0", "action" : "createplugin",
+   "ip4" : "10.20.0.130"
+}
+
+WebSocket Request: ------------------------------- {
+   "id" : "fooid", "name" : "iocage", "args" : {
+      "ip4" : "10.20.0.130", "plugin" : "gitlab", "net_device" :
+      "re0", "action" : "createplugin"
+   }, "namespace" : "sysadm"
+}
+
+Response: ------------------------------- {
+  "args": {
+    "createplugin": {
+      "started_dispatcher_id": "sysadm_iocage_fetch_plugin_gitlab"
+    }
+  }, "id": "fooid", "name": "response", "namespace": "sysadm"
+}
+
+https://github.com/trueos/sysadm-b428fb531a5b483736b4bd6318bae95e38c673d6/commit/
+
 Fri Jun  2 05:27:15 PDT 2017
 -----------------------------
 NEW API CALL: sysadm/iocage "action"="fetchreleases" This will fetch
